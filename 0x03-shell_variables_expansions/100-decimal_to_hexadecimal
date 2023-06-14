@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '%n' $((10#DECIMAL))
+echo '%x' $((10#DECIMAL))
