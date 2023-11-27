@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# for the 9th iteration, displays Best School and then Hi on a new line.
+# Requirement: You must use the while loop (for and until are forbidden) and You must use the if statement
+
+
+n=1
+while [ $n -le 10 ]
+do
+	if [ $n -eq 9 ]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((n++))
+done
